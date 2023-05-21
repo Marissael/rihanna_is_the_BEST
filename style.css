@@ -1,0 +1,338 @@
+.textoalineado {
+    border-radius: 8px;
+    text-align: center;
+    background-color: rgb(59, 138, 241);
+    border-width: 7px;
+    border-style:groove;
+    border-color: rgb(59, 13, 212);
+    padding: 40px;
+    margin: 20px;
+    width: 1150px;
+    font-family: Times, serif;
+    font-size:50px;
+    height: auto;
+
+}
+
+.textoalineadoo {
+    text-align: center;
+    background-color: rgba(62, 89, 243, 0.574);
+    border-width: 7px;
+    border-style: solid;
+    border-color:  rgba(62, 89, 243, 0.574);
+    padding: 11px;
+    margin: 40px;
+    width: 1000px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 4px;
+    margin-bottom: 19px;
+
+}
+
+#fondorosa {
+    background-color: rgba(194, 234, 236, 0.65);
+}
+
+.bordepunteado {
+    border: 7px;
+    border-style: dashed;
+    border-color: rgb(15, 71, 71);
+}
+
+.header {
+    background-color: rgb(197, 177, 215);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.section {
+    display: inline-block;
+}
+
+
+.imagenrihanna {
+    background-color: black;
+    border-style: solid;
+    margin-bottom: 8px;
+    width: auto;
+    height: auto;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    }
+
+.margen{
+    margin-bottom: 100px;
+  
+    border-bottom:30px;
+    align-items: center;
+}
+
+.super{
+    border-bottom: 8px;
+    margin-bottom: 8px;
+}
+    
+.masgrande{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ font-size:50px ;
+      
+}
+.like{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: auto;
+    margin:20px;
+    border-bottom: 1px solid rgb(58, 183, 211);
+    opacity: 0.8;
+    text-align: left;
+}
+
+.linea{
+        text-align: justify;
+        line-height: 1.5;
+        margin-bottom: 10px;
+           
+}
+
+.imagen{
+    width: 00px;
+    height: 0px;
+    border-radius: 50px;
+}
+
+*{
+    margin:0 ;
+    padding: 0;
+}
+
+.divflex{
+    background-color: rgb(227, 209, 244);
+    display: grid;
+    grid-template-columns:500px auto auto ;
+    margin:5px;
+}
+
+.uno{
+    background-color: rgb(23, 146, 223);
+    width: auto;
+    height:200px ;
+    margin:5px;
+    border-style: solid;
+    border-width: 7px;
+    border-color: black;
+    border-radius: 4px;
+    grid-column:1/4 ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 50px; 
+    
+     ;
+}
+
+.dos{
+    background-color: rgb(220, 225, 164);
+    width: auto;
+    height:auto ;
+    margin:5px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 50px;
+    border-style: solid;
+    border-width: 7px;
+    border-color: black;
+    border-radius: 4px;
+    }
+
+.tres{
+    background-color: rgb(132, 104, 157);
+    width: auto;
+    height:auto ;
+    margin:5px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 50px;
+    border-style: solid;
+    border-width: 7px;
+    border-color: black;
+    border-radius: 4px;
+    }
+
+.cuatro{
+     background-color: rgb(85, 138, 229);
+    width: 200px;
+    height:200px ;
+    margin:5px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 20px;
+    border-style: solid;
+    border-width: 7px;
+    border-color: black;
+    border-radius: 4px;
+    overflow: hidden;
+    }
+
+.cinco{
+    background-color: rgb(156, 224, 160);
+    width: auto;
+    height:auto ;
+    margin:5px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 50px;
+    border-style: solid;
+    border-width: 7px;
+    border-color: black;
+    border-radius: 4px;
+    }
+
+.seis{
+    background-color: rgb(234, 203, 101);
+    width:200 px;
+    height:200px ;
+    margin:5px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 50px;
+    border-style: solid;
+    border-width: 7px;
+    border-color: black;
+    border-radius: 4px;
+    
+    }
+
+.siete{
+    background-color: rgb(194, 192, 196);
+    width: 200px;
+    height:200px ;
+    margin:5px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 50px;
+    border-style: solid;
+    border-width: 7px;
+    border-color: black;
+    border-radius: 4px;
+     }
+
+    .final{
+    background-color: rgb(101, 145, 216);
+    width: 200px;
+    height:200px;
+    margin:5px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 20px;
+    padding: 50px;
+    border-style: solid;
+    border-width: 7px;
+    border-color: black;
+    border-radius: 4px;
+    overflow: hidden;
+
+    }
+
+
+    
+    .container{
+        background-color: rgb(159, 143, 240);
+        display: flex;
+        flex-direction: row;
+       
+    }
+
+    .container div{
+        background-color: rgb(197, 126, 255);
+    }
+
+    @media (max-width: 1000px) {
+        .container {
+            flex-direction: column;
+        }
+        .container div {
+            background-color: rgb(189, 189, 226);
+        }
+    }
+
+    .fondito{
+        background-color: rgb(160, 209, 230);
+    }
+    
+    .inicio{
+        margin:7px ;
+    }
+    .galeria{
+        margin:7px ;
+    }
+    .servicios{
+        margin:7px ;
+    }
+    .contacto{
+        margin:7px ;
+    }
+
+
+.letragrande{
+    font-size: 30px;
+    margin-bottom: auto;
+    margin: 50px; 
+    text-align: center;
+}
+
+.carousel-item img {
+    margin-bottom: auto;
+    margin: 20px;
+    max-width: 50%;
+    height: auto;
+  }
+
+.margendelvideo{
+    margin-bottom: auto;
+    margin: 20px;
+}
+
+.parrafodepresentacion{
+    margin-bottom: auto;
+    margin: 40px;
+    text-align: center;
+}
+
+.parrafodelainfo{
+    margin-bottom: auto;
+    margin: 40px;
+    text-align:center ;
+}
+.imagenderihanna{
+    margin-bottom: auto;
+    margin: 50px; 
+}
+
+.alineacion{
+    margin-bottom: auto;
+    margin: 50px; 
+    text-align: center;
+}
+.pero{
+    margin-bottom: auto;
+    margin: 50px; 
+    text-align: center;
+}
+
+.mientras{
+    margin-bottom: auto;
+    margin: 50px; 
+    text-align: center;
+}
+
+.si{
+    margin-bottom: auto;
+    margin: 20px; 
+
+}
+
+.uno{
+    margin-bottom: auto;
+    margin: 50px; 
+
+}
