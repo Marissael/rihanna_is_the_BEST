@@ -8,7 +8,7 @@
     padding: 40px;
     margin: 20px;
     width: 1150px;
-    font-family: Times, serif;
+    font-family: 'Playfair Display', serif;
     font-size:50px;
     height: auto;
 
@@ -30,7 +30,7 @@
 }
 
 #fondorosa {
-    background-color: rgba(194, 234, 236, 0.65);
+    background-color: rgba(1, 13, 14, 0.65);
 }
 
 .bordepunteado {
@@ -49,22 +49,26 @@
 }
 
 
-.imagenrihanna {
-    background-color: black;
-    border-style: solid;
-    margin-bottom: 8px;
-    width: auto;
-    height: auto;
-    display: inline-block;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+.imagenescontenedor {
+display: flex;
+align-items: center;
+margin: 50px;
     }
+.imagencontenedor{
+margin-right: 10px;
+height: auto;
+}
+.segundaimagenrihanna {
+  width: 300px; 
+  height: auto; 
+  margin-left: 49px;
+
+
+}
+
 
 .margen{
     margin-bottom: 100px;
-  
     border-bottom:30px;
     align-items: center;
 }
@@ -75,7 +79,8 @@
 }
     
 .masgrande{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Rubik', sans-serif;
  font-size:50px ;
       
 }
@@ -86,6 +91,7 @@
     border-bottom: 1px solid rgb(58, 183, 211);
     opacity: 0.8;
     text-align: left;
+    font-size: 20px;
 }
 
 .linea{
@@ -251,12 +257,12 @@
             flex-direction: column;
         }
         .container div {
-            background-color: rgb(189, 189, 226);
+            background-color: rgb(14, 14, 253);
         }
     }
 
     .fondito{
-        background-color: rgb(160, 209, 230);
+        background-color: rgba(73, 197, 243, 0.545);
     }
     
     .inicio{
@@ -274,10 +280,10 @@
 
 
 .letragrande{
-    font-size: 30px;
+    font-size: 20px;
     margin-bottom: auto;
-    margin: 50px; 
-    text-align: center;
+    margin: 20px; 
+    text-align: left;
 }
 
 .carousel-item img {
@@ -287,10 +293,45 @@
     height: auto;
   }
 
-.margendelvideo{
-    margin-bottom: auto;
-    margin: 20px;
+.video{
+    width: 800px; 
+    height: auto; 
+    margin-left: 40px;
+    align-items: center;
 }
+.contenedordevideo{
+    position: relative;
+}
+
+.contenedordelvideo{
+    position: absolute;
+    bottom: 10px; 
+    left: 0;
+    right: 0;
+    text-align: center;
+
+}
+
+.botonmegusta, .botonnomegusta{
+    border-color: rgb(0, 0, 0);
+    background-color: rgb(140, 140, 238);
+    position:relative;
+    top: 10px; 
+    left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:5x;
+    margin-left: 20px;
+    background-color: #0a0505;
+     color: #ffffff; 
+
+  }
+
+
+
+
+
+
+
 
 .parrafodepresentacion{
     margin-bottom: auto;
@@ -323,16 +364,4 @@
     margin-bottom: auto;
     margin: 50px; 
     text-align: center;
-}
-
-.si{
-    margin-bottom: auto;
-    margin: 20px; 
-
-}
-
-.uno{
-    margin-bottom: auto;
-    margin: 50px; 
-
 }
