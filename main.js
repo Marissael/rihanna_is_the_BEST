@@ -1,3 +1,7 @@
-let miNombre = "Marissael De Los Angeles"
-let miApellido = "Bello Padilla"
+let miNombre = "Marissael"
+let miApellido = "Padilla"
 let miEdad = "16"
+let miMadre ="Mariarkis"
+
+
+
