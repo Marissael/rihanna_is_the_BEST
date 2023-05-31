@@ -5,3 +5,8 @@ let miMadre ="Mariarkis"
 
 
 
+document.getElementById('myForm').addEventListener('submit', function(event) {
+    event.preventDefault(); 
+    document.getElementById('mensaje').style.display = 'block';
+  });
+  

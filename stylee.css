@@ -1,5 +1,5 @@
-.gradient-title {
-    background: linear-gradient(45deg, #e2cece, #000000);
+.degradado {
+    background: linear-gradient(45deg, #d46363, #000000);
     background-clip: text;
     text-decoration: solid;
     -webkit-text-fill-color:rgb(16, 13, 13);
@@ -21,13 +21,15 @@ img{
 }
 
   
-
-
-
-
-
 .links{
     font-size: 19px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+.subtitulos {
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 39px;
+border-left: 11px;
+
+}
