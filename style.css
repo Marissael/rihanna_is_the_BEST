@@ -1,308 +1,313 @@
 .fondito {
-    overflow-x: hidden;
-    line-height: 1.5;
-    background: linear-gradient(45deg, #91b7b7, #1161c9);
-    background-clip: text;
+  overflow-x: hidden;
+  line-height: 1.5;
+  background: linear-gradient(45deg, #91b7b7, #1161c9);
+  background-clip: text;
+}
+
+.blog {
+  background-color: #0a0505e5;
+  font-size: 18px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border-radius: 8px;
+  text-decoration: overline;
+  text-align: center;
+  border-color: #000000;
+}
+
+.textoalineado {
+  border-radius: 8px;
+  text-align: center;
+  background-color: rgb(59, 138, 241);
+  border-width: 7px;
+  border-style: groove;
+  border-color: rgb(10, 4, 29);
+  margin: 20px;
+  width: 1100px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  height: auto;
+  animation: animacion 2s ease-in-out infinite alternate;
+}
+
+@keyframes animacion {
+  0% {
+    transform: scale(1);
   }
-  
-  .blog {
-    background-color: #0a0505e5;
-    font-size: 18px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    border-radius: 8px;
-    text-decoration: overline;
-    text-align: center;
-    border-color: #000000;
+
+  100% {
+    transform: scale(1.2);
   }
-  
+}
+
+.super {
+  border-bottom: 8px;
+  margin-bottom: 8px;
+}
+
+.like {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-bottom: auto;
+  margin: 20px;
+  border-bottom: 1px solid rgb(58, 183, 211);
+  opacity: 0.8;
+  text-align: left;
+  font-size: 20px;
+}
+
+.masgrande {
+  font-family: 'Playfair Display', serif;
+  font-family: 'Rubik', sans-serif;
+  font-size: 50px;
+}
+
+.textoalineado2 {
+  text-align: center;
+  background-color: rgba(62, 89, 243, 0.574);
+  border-width: 7px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.639);
+  padding: 11px;
+  margin: 40px;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  border-radius: 4px;
+  margin-bottom: 19px;
+  width: 90%;
+}
+
+.imagenescontenedor {
+  display: flex;
+  align-items: center;
+  margin: 50px;
+}
+
+.imagencontenedor {
+  margin-right: 10px;
+  height: auto;
+}
+
+.imagenderihanna {
+  margin-bottom: auto;
+  margin: 50px;
+}
+
+.segundaimagenrihanna {
+  width: 300px;
+  height: auto;
+  margin-left: 49px;
+}
+
+.parrafodepresentacion {
+  margin-bottom: auto;
+  margin: 40px;
+  text-align: center;
+}
+
+.margen {
+  margin-bottom: 100px;
+  border-bottom: 30px;
+  align-items: center;
+}
+
+.presentacion {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.parrafodelainfo,
+.riri {
+  margin-bottom: auto;
+  margin: 40px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  margin: 7px;
+  border-radius: 1px;
+}
+
+.alineacion {
+  margin-bottom: auto;
+  margin: 50px;
+  text-align: center;
+}
+
+.ririceleste {
+  margin-left: 70px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 50px;
+  border-radius: 1px;
+  height: auto;
+  width: 100%;
+}
+
+.pero {
+  margin-bottom: auto;
+  margin: 50px;
+  text-align: center;
+}
+
+.mientras {
+  margin-bottom: auto;
+  margin: 50px;
+  text-align: center;
+}
+
+.contenedordelvideo {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.video {
+  width: 800px;
+  height: auto;
+  margin-left: 40px;
+  align-items: center;
+}
+
+.contenedordevideo {
+  position: relative;
+  align-items: center;
+}
+
+.botonmegusta,
+.botonnomegusta {
+  border-color: rgb(0, 0, 0);
+  background-color: rgb(140, 140, 238);
+  position: relative;
+  top: 10px;
+  left: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 5x;
+  margin-left: 20px;
+  background-color: #0a0505;
+  color: #ffffff;
+}
+
+.letragrande {
+  font-size: 15px;
+  margin-bottom: auto;
+  margin: 20px;
+  text-align: left;
+}
+
+.h2 {
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  font-size: 24px;
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  background: linear-gradient(45deg, #6c989a, #000000);
+  background-clip: text;
+  text-decoration: solid;
+  -webkit-text-fill-color: rgb(16, 13, 13);
+  text-align: center;
+  border-radius: 3px;
+}
+
+.formulario {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Media queries para pantallas más pequeñas */
+
+@media (max-width: 768px) {
   .textoalineado {
-    border-radius: 8px;
-    text-align: center;
-    background-color: rgb(59, 138, 241);
-    border-width: 7px;
-    border-style: groove;
-    border-color: rgb(10, 4, 29);
+    width: 100%;
+    font-size: 30px;
+  }
+
+  .imagenescontenedor {
+    flex-wrap: wrap;
+  }
+
+  .segundaimagenrihanna {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  .parrafodepresentacion,
+  .margen,
+  .parrafodelainfo,
+  .ririceleste,
+  .pero,
+  .mientras {
     margin: 20px;
-    width: 1100px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 50px;
-    height: auto;
-    animation: animacion 2s ease-in-out infinite alternate;
   }
-  
-  @keyframes animacion {
-    0% {
-      transform: scale(1);
-    }
-    100% {
-      transform: scale(1.2);
-    }
+
+  .video {
+    width: 100%;
+    margin: 0;
   }
-  
-  .super {
-    border-bottom: 8px;
-    margin-bottom: 8px;
-  }
-  
-  .like {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    margin-bottom: auto;
-    margin: 20px;
-    border-bottom: 1px solid rgb(58, 183, 211);
-    opacity: 0.8;
-    text-align: left;
+}
+
+/* Media queries para pantallas aún más pequeñas */
+
+@media (max-width: 576px) {
+  .textoalineado {
     font-size: 20px;
   }
-  
+
   .masgrande {
-    font-family: 'Playfair Display', serif;
-    font-family: 'Rubik', sans-serif;
-    font-size: 50px;
+    font-size: 40px;
   }
-  
-  .textoalineado2 {
-    text-align: center;
-    background-color: rgba(62, 89, 243, 0.574);
-    border-width: 7px;
-    border-style: solid;
-    border-color: rgba(0, 0, 0, 0.639);
-    padding: 11px;
-    margin: 40px;
-    font-family: Georgia, Times, 'Times New Roman', serif;
-    border-radius: 4px;
-    margin-bottom: 19px;
-    width: 90%;
-  }
-  
+
   .imagenescontenedor {
-    display: flex;
-    align-items: center;
-    margin: 50px;
+    flex-direction: column;
+    align-items: flex-start;
   }
-  
-  .imagencontenedor {
-    margin-right: 10px;
-    height: auto;
-  }
-  
+
   .imagenderihanna {
-    margin-bottom: auto;
-    margin: 50px;
-  }
-  
-  .segundaimagenrihanna {
-    width: 300px;
-    height: auto;
-    margin-left: 49px;
-  }
-  
-  .parrafodepresentacion {
-    margin-bottom: auto;
-    margin: 40px;
-    text-align: center;
-  }
-  
-  .margen {
-    margin-bottom: 100px;
-    border-bottom: 30px;
-    align-items: center;
-  }
-  
-  .presentacion {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-  }
-  
-  .parrafodelainfo,
-  .riri {
-    margin-bottom: auto;
-    margin: 40px;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    display: flex;
-    margin: 7px;
-    border-radius: 1px;
-  }
-  
-  .alineacion {
-    margin-bottom: auto;
-    margin: 50px;
-    text-align: center;
-  }
-  
-  .ririceleste {
-    margin-left: 70px;
-    font-family: Arial, Helvetica, sans-serif;
-    display: flex;
-    flex-direction: row-reverse;
-    margin: 50px;
-    border-radius: 1px;
-    height: auto;
-    width: 100%;
-  }
-  
-  .pero {
-    margin-bottom: auto;
-    margin: 50px;
-    text-align: center;
-  }
-  
-  .mientras {
-    margin-bottom: auto;
-    margin: 50px;
-    text-align: center;
-  }
-  
-  .contenedordelvideo {
-    position: absolute;
-    bottom: 10px;
-    left: 0;
-    right: 0;
-    text-align: center;
-  }
-  
-  .video {
-    width: 800px;
-    height: auto;
-    margin-left: 40px;
-    align-items: center;
-  }
-  
-  .contenedordevideo {
-    position: relative;
-    align-items: center;
-  }
-  
-  .botonmegusta,
-  .botonnomegusta {
-    border-color: rgb(0, 0, 0);
-    background-color: rgb(140, 140, 238);
-    position: relative;
-    top: 10px;
-    left: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 5x;
-    margin-left: 20px;
-    background-color: #0a0505;
-    color: #ffffff;
-  }
-  
-  .letragrande {
-    font-size: 15px;
-    margin-bottom: auto;
-    margin: 20px;
-    text-align: left;
-  }
-  
-  .h2 {
-    font-family: Georgia, Times, 'Times New Roman', serif;
-    font-size: 24px;
-    color: black;
-    text-transform: uppercase;
-    font-weight: bold;
-    text-align: center;
-    background: linear-gradient(45deg, #6c989a, #000000);
-    background-clip: text;
-    text-decoration: solid;
-    -webkit-text-fill-color: rgb(16, 13, 13);
-    text-align: center;
-    border-radius: 3px;
-  }
-  
-  .formulario {
     margin-bottom: 20px;
+    margin-left: 0;
   }
-  
-  label {
-    display: block;
-    margin-bottom: 5px;
-    font-weight: bold;
+
+  .segundaimagenrihanna {
+    margin: 0;
   }
-  
-  input,
-  textarea {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+
+  .parrafodepresentacion,
+  .margen,
+  .parrafodelainfo,
+  .ririceleste,
+  .pero,
+  .mientras {
+    margin: 10px;
   }
-  
-  button {
-    background-color: #007bff;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  button:hover {
-    background-color: #0056b3;
-  }
-  
-  /* Media queries para pantallas más pequeñas */
-  
-  @media (max-width: 768px) {
-    .textoalineado {
-      width: 100%;
-      font-size: 30px;
-    }
-    
-    .imagenescontenedor {
-      flex-wrap: wrap;
-    }
-    
-    .segundaimagenrihanna {
-      margin-left: 0;
-      margin-top: 10px;
-    }
-    
-    .parrafodepresentacion,
-    .margen,
-    .parrafodelainfo,
-    .ririceleste,
-    .pero,
-    .mientras {
-      margin: 20px;
-    }
-    
-    .video {
-      width: 100%;
-      margin: 0;
-    }
-  }
-  
-  /* Media queries para pantallas aún más pequeñas */
-  
-  @media (max-width: 576px) {
-    .textoalineado {
-      font-size: 20px;
-    }
-    
-    .masgrande {
-      font-size: 40px;
-    }
-    
-    .imagenescontenedor {
-      flex-direction: column;
-      align-items: flex-start;
-    }
-    
-    .imagenderihanna {
-      margin-bottom: 20px;
-      margin-left: 0;
-    }
-    
-    .segundaimagenrihanna {
-      margin: 0;
-    }
-    
-    .parrafodepresentacion,
-    .margen,
-    .parrafodelainfo,
-    .ririceleste,
-    .pero,
-    .mientras {
-      margin: 10px;
-    }
-  }
-  
+}
+
+.articulo {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 40px;
+}
