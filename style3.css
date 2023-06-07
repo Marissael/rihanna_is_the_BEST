@@ -1,80 +1,90 @@
+/* Estilos generales del documento */
 body {
-    background-color: rgb(103, 129, 152);
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-  }
-  
-  header {
-    background:radial-gradient(#726f59, #000000);
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-  }
+  background-color: rgb(103, 129, 152); 
+  font-family: Arial, sans-serif;
+  margin: 0; /* Margen exterior */
+  padding: 0; 
+}
 
-  nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-  }
-  
-  nav li {
-    margin-right: 20px;
-  }
-  
-  nav a {
-    color: #fff;
-    text-decoration: none;
-    padding: 10px;
-  }
-  
-  nav a.active {
-    font-weight: bold;
-  }
-  
-  main {
-    padding: 20px;
-  }
-  
-  form {
-    max-width: 500px;
-    margin: 0 auto;
-  }
-  
-  div {
-    margin-bottom: 10px;
-  }
-  
-  label {
-    display: block;
-    font-weight: bold;
-  }
-  
-  input[type="text"],
-  input[type="email"],
-  textarea {
-    width: 100%;
-    padding: 5px;
-  }
-  
-  button {
-    background-color: #070136;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-  }
+/* Estilos del encabezado */
+header {
+  background: radial-gradient(#726f59, #000000); /* Gradiente radial de fondo */
+  color: #fff; 
+  padding: 20px; 
+  text-align: center; 
+}
 
-    button:hover {
-    background-color: #ff0000;
-  }
-  
-  footer {
-    background:radial-gradient(#242222, #000000);
-    color: #ffffffd1;
-    padding: 10px;
-    text-align: center;
-  }
-  
+/* Estilos de la navegación */
+nav ul {
+  list-style-type: none; /* Quita los marcadores de lista */
+  margin: 0; 
+  padding: 0;
+  display: flex; 
+  justify-content: center; 
+}
+
+nav li {
+  margin-right: 20px; 
+}
+
+nav a {
+  color: #fff; 
+  text-decoration: none; /* Sin subrayado */
+  padding: 10px; 
+}
+
+nav a.active {
+  font-weight: bold; 
+}
+
+/* Estilos del contenido principal */
+main {
+  padding: 20px; 
+}
+
+/* Estilos del formulario */
+form {
+  max-width: 500px; 
+  margin: 0 auto; 
+}
+
+/* Estilos del elemento div */
+div {
+  margin-bottom: 10px; 
+  color: #ffffff; 
+}
+
+/* Estilos de la etiqueta */
+label {
+  display: block; 
+  font-weight: bold; 
+}
+
+/* Estilos de los campos de entrada de texto y correo electrónico, y del área de texto */
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 5px; 
+}
+
+/* Estilos del botón */
+button {
+  background-color: #070136; 
+  color: #fff; 
+  padding: 10px 20px; 
+  border: none; /* Sin borde */
+  cursor: pointer; 
+}
+
+button:hover {
+  background-color: #ff0000; 
+}
+
+/* Estilos del pie de página */
+footer {
+  background: radial-gradient(#242222, #000000); 
+  color: #ffffffd1; 
+  padding: 10px; 
+  text-align: center; 
+}

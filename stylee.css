@@ -1,3 +1,10 @@
+/*Estilo de la barra de nav*/
+.navbar-nav .nav-link{
+  color:white
+}
+
+
+/* Para todo el documento*/
 .fondodetodo{
     background: linear-gradient(45deg, #7e2525, #be420d);
     background-clip: text;
@@ -5,67 +12,73 @@
     -webkit-text-fill-color:rgb(255, 255, 255);
 }
 
+/*Para que el H1 que dice Sabias que? tenga un decradado de fondo*/
 .degradado {
-    background:linear-gradient(54deg, #b75709, #960303);
-    background-clip: text;
-    text-decoration: solid;
-    -webkit-text-fill-color:rgba(0, 0, 0, 0.964);
-    text-align: center;
-    border-radius: 3px;
+  background:linear-gradient(54deg, #b75709, #960303);
+  background-clip: text;
+  text-decoration: solid;
+  -webkit-text-fill-color:rgba(0, 0, 0, 0.964);
+  text-align: center;
+  border-radius: 3px;
+}
+
+/*El subtitulo Bring it on */
+.subtitulo {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 39px;
+  border-left: 11px;
+  color: #ffffff;
   }
 
+/*estilo de contenedor del primer parrafo*/
 .contenedor{
-display: flex;
-align-items: center;
+  display: flex;
+  align-items: center;
+  flex: 1;
+  color: #ffffff;
+  margin-left: 19px;
+  }
+
+  /*Estilo del segundo parrado*/
+.parrafo2{
+  margin: 19px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 19px;
 }
 
-.parrafo{
-flex: 1;
-color: #ffffff;
-margin-left: 19px;
+/*estilo del contenedor del video*/
+.contenedordevideo {
+  position: relative;
+  align-items: center;
 }
+
+/*estilo del video*/
+.video {
+  width: 800px;
+  height: auto;
+  margin-left: 40px;
+  align-items: center;
+}
+
+  /*Estilo de la imagen de rihanna militar*/
 img{
-    margin-left: 20px;
+    margin-right : 20px;
     max-width: 300px;
 }
 
-.subtitulo {
-text-align: center;
-font-family: Arial, Helvetica, sans-serif;
-font-size: 39px;
-border-left: 11px;
-color: #ffffff;
-}
-
-.parrafo2{
-    margin: 19px;
-}
-
-
-.contenedordevideo {
-    position: relative;
-    align-items: center;
-  }
-  .video {
-    width: 800px;
-    height: auto;
-    margin-left: 40px;
-    align-items: center;
-  }
-  .contenedordelvideo {
-    position: absolute;
-    bottom: 10px;
-    left: 0;
-    right: 0;
-    text-align: center;
+/*estilo de contenedor del primer parrafo*/
+.contenedor{
+  display: flex;
+  align-items: center;
+  flex: 1;
+  color: #ffffff;
+  margin-left: 19px;
   }
 
 
-.navbar-nav .nav-link{
-    color:white
-}
-
-.parallax-shadow-title {
+/*Estilo para el 2do subtitulo*/
+  .parallax-shadow-title {
     margin-left: 37px;
     position: relative;
     color: #f70202; 
@@ -73,7 +86,7 @@ color: #ffffff;
     font-size: 39px;
     text-align: center;
 }
-  
+  /*Esta es la sombra detras del 2do subtitulo*/
   .parallax-shadow-title::after {
     content: attr(data-text);
     position: absolute;
@@ -83,7 +96,9 @@ color: #ffffff;
     z-index: -1;
     text-shadow: none;
   }
-  
+
+
+  /*Boton del acordeon, al oprimir aparece el contenido*/
   .boton-acordeon {
     background-color: #ff000095;
     color: #ffffff;
@@ -102,7 +117,9 @@ color: #ffffff;
     margin-left: 29px;
     }
 
-.accordion-content {
+
+  /*Estilo del contenedor del acordeon*/
+  .accordion-content {
     margin-left: 9px;
     font-size: 19px;
     max-height: 0;
@@ -111,7 +128,24 @@ color: #ffffff;
     color: #e5d3d3;
 }
 
+/*Estilo de los parrafos dentro del contenedor */
 .accordion-content.show {
     max-height: 100%; 
     max-width: auto;
+}
+
+
+/*estilo del parrafo por encima del video*/
+  .divi{
+    margin-left: 24px;
+    font-size: 18px;
+  }
+
+/*Estilo de los links, al pasar el cursor por encima se cambia*/
+a{
+  color: blue;
+}
+
+a:hover{
+  color: rgb(255, 255, 255);
 }
